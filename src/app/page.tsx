@@ -1,7 +1,6 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import Image from "next/image";
 
 export default function Home() {
   const [email, setEmail] = useState("");
@@ -122,13 +121,13 @@ export default function Home() {
                 </svg>
                 <h3 className="text-xl font-bold text-white mb-2">Thank You!</h3>
                 <p className="text-gray-300">
-                  You've been added to our waitlist. We'll notify you when Levercast is ready.
+                  You&apos;ve been added to our waitlist. We&apos;ll notify you when Levercast is ready.
                 </p>
               </div>
             )
           )}
           
-          {/* Show static content during server rendering or when client hasn't hydrated yet */}
+          {/* Show static content during server rendering or when client hasn&apos;t hydrated yet */}
           {!isClient && (
             <div>
               <button
@@ -171,7 +170,7 @@ export default function Home() {
                       <div className="text-sm font-medium">LinkedIn</div>
                     </div>
                     <div className="text-xs text-gray-300">
-                      I'm thrilled to announce the launch of our innovative new product that addresses [specific pain point]! After months of development and testing, we're confident this solution will transform how you [benefit]. #ProductLaunch #Innovation
+                      I&apos;m thrilled to announce the launch of our innovative new product that addresses [specific pain point]! After months of development and testing, we&apos;re confident this solution will transform how you [benefit]. #ProductLaunch #Innovation
                     </div>
                   </div>
                   
@@ -233,7 +232,7 @@ export default function Home() {
               </div>
               <h3 className="text-xl font-bold mb-4">One-Click Publishing</h3>
               <p className="text-gray-300">
-                Preview your posts exactly as they'll appear, then publish directly to multiple platforms with a single click.
+                Preview your posts exactly as they&apos;ll appear, then publish directly to multiple platforms with a single click.
               </p>
             </div>
           </div>
@@ -348,7 +347,7 @@ export default function Home() {
                 </svg>
                 <h3 className="text-xl font-bold text-white mb-2">Thank You!</h3>
                 <p className="text-gray-300">
-                  You've been added to our waitlist. We'll notify you when Levercast is ready.
+                  You&apos;ve been added to our waitlist. We&apos;ll notify you when Levercast is ready.
                 </p>
               </div>
             )
