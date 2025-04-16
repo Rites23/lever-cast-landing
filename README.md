@@ -36,6 +36,6 @@ GitHub Copilot 💡
 
 Resend 📧
 
-## Link: https://lever-cast-landing-ten.vercel.app/
+Check out the [Lever Cast Page](https://lever-cast-landing-ten.vercel.app/) hosted on Vercel for a demo of the components.
 
 
